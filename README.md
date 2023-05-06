@@ -1,2 +1,7 @@
 # Aprendendo-JavaScript
-Exercícios de JavaScript do Curso em Vídeo de Gustavo Guanabara
+
+ 
+
+Repositório com exercícios de JavaScript feitos durantes as aulas do Curso em Video do Professor Gustavo Guanabara e do CBFCursos do Professor Bruno.
+
+Sera util para registrar minha evolução.
