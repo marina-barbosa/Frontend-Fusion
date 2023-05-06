@@ -17,25 +17,28 @@
     </style>
 </head>
 <body>
-   
+    
     <script>
                
-        var nome = window.prompt('Qual é o seu nome?') // retorna em String
+        //var nome = window.prompt('Qual é o seu nome?') // retorna em String
 
         var salario = Number(window.prompt('Qual o seu salário?'))
        
 
-        document.write(`Seu nome tem ${nome.length} letras.<br/>`)
-        document.write(`testando toUpperCase ${nome.toUpperCase()}.<br/>`)
-        document.write(`testando toLowerCase ${nome.toLowerCase()}.<br/>`)
+        //document.write(`Seu nome tem ${nome.length} letras.<br/>`)
+        //document.write(`testando toUpperCase ${nome.toUpperCase()}.<br/>`)
+        //document.write(`testando toLowerCase ${nome.toLowerCase()}.<br/>`)
                
+        
 
-        //salario = salario.toLocaleString('pt-BR', {style: 'currency', currency:'BRL',})
-        document.write(`testando toLocaleString ${salario}<br/>`)
-        salario = salario.toLocaleString('pt-BR',{style: 'currency', currency:'USD'})
-        document.write(`testando toLocaleString ${salario}<br/>`)
-        salario = salario.toLocaleString('pt-BR',{style: 'currency', currency:'EUR'})
-        document.write(`testando toLocaleString ${salario}<br/>`)
+        var salarioBr = salario.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})        
+        document.write(`testando toLocaleString BR: ${salarioBr}<br/>`)
+
+        var salarioUsd = salario.toLocaleString('en-IN', {style: 'currency', currency:'USD'})
+        document.write(`testando toLocaleString USD: ${salarioUsd}<br/>`)
+
+        var salarioEur = salario.toLocaleString('de-DE', {style: 'currency', currency:'EUR'})
+        document.write(`testando toLocaleString EUR: ${salarioEur}<br/>`)
 
         salario = salario.toFixed(2)
         document.write(`testando toFixed(2) ${salario}<br/>`)
