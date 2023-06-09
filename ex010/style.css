@@ -1,43 +1,43 @@
-body{
-    background: rgb(124, 187, 247);
+body{       
     font: normal 20px Arial;
+    background-image: url(padrao-gatinho.jpg);
 }
+
 header{
-    color: aliceblue;
+    color: rgb(184, 129, 247);
     text-align: center;
+    font-size: 50px;
+    background: rgb(232, 219, 247);
 }
-section{
-    background: white;
+
+.cx{
+    background: rgb(232, 219, 247);
     border-radius: 10px;
     padding: 15px;
     width: 600px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0); 
-       
-}
-.esq{
-    float: left;
-}
-.direita{
-    float: right;
-}
-input{
-    width: 100px;    
-}
-div{
+    margin: 50px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
     text-align: center;
 }
 
-img {    
-    border-radius: 50%;
-    object-fit: cover;
-    height: 300px;    
-    width: 310px;     
-    margin: auto;
-    display: block;    
+.org{
+    margin-left: 12%;
 }
+
+.up-div {
+    display: flex;  
+}
+  
+.down-div {
+    display: flex; 
+}
+
+input{
+    width: 100px;    
+}
+
 footer{
-    color: aliceblue;
-    text-align: center;
+    color: grey;
+    text-align: center;    
     font-style: italic;
 }
