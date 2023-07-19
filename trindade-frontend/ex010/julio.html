@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Buro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Calculadora do Buro</header>
+    
+        <div class="org">
+
+            <div class="up-div">
+
+                <div class="cx" id="media">
+                    <div><p>Média:
+                        <input type="number" id="numeroDigitadoMedia">
+                        <input type="button" id="botaoAdicionarMedia" value="Adicionar" onclick="adicionarNumeroMedia()">
+                        <input type="button" id="botaoApagarMedia" value="Apagar" onclick="apagarUltimoMedia()">
+                        <input type="button" id="botaoResetarMedia" value="Reset" onclick="resetMedia()">
+                        </p>
+                    </div>
+                    <div id="valoresAdicionadosMedia">~</div><br>
+                    <div><input type="button" id="botaoFinalizarMedia" value="Finalizar" onclick="finalizarMedia()"></div>
+                    <div id="resultadosMedia">~</div>
+                </div>
+
+            
+                <div class="cx" id="primo">
+                    <div><p>Primo:
+                        <input type="number" id="numeroDigitadoPrimo">
+                        <input type="button" id="botaoAdicionarPrimo" value="Adicionar" onclick="adicionarNumeroPrimo()">
+                        <input type="button" id="botaoApagarPrimo" value="Apagar" onclick="apagarUltimoPrimo()">
+                        <input type="button" id="botaoResetarPrimo" value="Reset" onclick="resetPrimo()">
+                        </p>
+                    </div>
+                    <div id="valoresAdicionadosPrimo">~</div><br>
+                    <div><input type="button" id="botaoFinalizarPrimo" value="Finalizar" onclick="finalizarPrimo()"></div>
+                    <div id="resultadosPrimo"></div>
+                </div>
+
+            </div>  
+    
+        
+            <div class="down-div">
+
+                <div class="cx" id="mdc">
+                    <div><p>MDC:
+                        <input type="number" id="numeroDigitadoMDC">
+                        <input type="button" id="botaoAdicionarMDC" value="Adicionar" onclick="adicionarNumeroMDC()">
+                        <input type="button" id="botaoApagarMDC" value="Apagar" onclick="apagarUltimoMDC()">
+                        <input type="button" id="botaoResetarMDC" value="Reset" onclick="resetMDC()">
+                    </p>
+                    </div>
+                    <div id="valoresAdicionadosMDC">~</div><br>
+                    <div><input type="button" id="botaoFinalizarMDC" value="Finalizar" onclick="finalizarMDC()"></div>
+                    <div id="resultadosMDC">~</div>
+                </div>
+        
+            
+                <div class="cx" id="mmc">
+                    <div><p>MMC:
+                        <input type="number" id="numeroDigitadoMMC">
+                        <input type="button" id="botaoAdicionarMMC" value="Adicionar" onclick="adicionarNumeroMMC()">
+                        <input type="button" id="botaoApagarMMC" value="Apagar" onclick="apagarUltimoMMC()">
+                        <input type="button" id="botaoResetarMMC" value="Reset" onclick="resetMMC()">
+                        </p>
+                    </div>
+                    <div id="valoresAdicionadosMMC">~</div><br>
+                    <div><input type="button" id="botaoFinalizarMMC" value="Finalizar" onclick="finalizarMMC()"></div>
+                    <div id="resultadosMMC">~</div>
+                </div>
+
+            </div>
+
+        </div>
+    
+    
+    <footer>Desenvolvido por Marina</footer>
+    <script src="script.js"></script>
+</body>
+</html>
