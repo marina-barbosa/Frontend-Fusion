@@ -1,19 +1,20 @@
-# Aprendendo-JavaScript
+# Frontend Fusion 
 
- 
-
-Repositório com exercícios de JavaScript feitos durantes as aulas do Curso em Video do Professor Gustavo Guanabara e do CBFCursos do Professor Bruno.
+Repositório com exercícios feitos durantes as aulas de:
+Curso em Video do Professor Gustavo Guanabara;
+CBFCursos do Professor Bruno;
+Samsung Ocean Br com Professor Paulo Salvatore;
 
 Sera util para registrar minha evolução.
 
 
-<a href="https://marina-barbosa.github.io/Aprendendo-html-css-JavaScript/ex000/ex004/index.html">Exercício 004</a>
+<a href="https://marina-barbosa.github.io/Frontend-Fusion/trindade-frontend/ex000/ex004/index.html">Exercício 004</a>
 <br>
-<a href="https://marina-barbosa.github.io/Aprendendo-html-css-JavaScript/ex009/ex009.html">Exercício 009</a>
+<a href="https://marina-barbosa.github.io/Frontend-Fusion/trindade-frontend/ex009/ex009.html">Exercício 009</a>
 <br>
-<a href="https://marina-barbosa.github.io/Aprendendo-html-css-JavaScript/ex010/julio.html">Site pro Julio</a>
+<a href="https://marina-barbosa.github.io/Frontend-Fusion/trindade-frontend/ex010/julio.html">Site pro Julio</a>
 <br>
-<a href="https://marina-barbosa.github.io/Aprendendo-html-css-JavaScript/ex012/Cordel.html">Exercício 012</a>
+<a href="https://marina-barbosa.github.io/Frontend-Fusion/trindade-frontend/ex012/Cordel.html">Exercício 012</a>
 <br>
 
 
