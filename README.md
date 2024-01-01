@@ -1,4 +1,4 @@
-# Frontend Fusion 
+
 
 Repositório com exercícios feitos durantes as aulas de:
 - Curso em Video do Professor Gustavo Guanabara;
